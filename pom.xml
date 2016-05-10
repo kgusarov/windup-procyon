@@ -14,6 +14,19 @@
     <packaging>pom</packaging>
     <name>Windup Procyon Decompiler Parent</name>
 
+    <properties>
+        <windup-procyon.scm.connection>scm:git:https://github.com/windup/windup-procyon.git</windup-procyon.scm.connection>
+        <windup-procyon.developer.connection>scm:git:git@github.com:windup/windup-procyon.git</windup-procyon.developer.connection>
+        <windup-procyon.scm.url>http://github.com/windup/windup-procyon</windup-procyon.scm.url>
+    </properties>
+
+    <scm>
+        <tag>master</tag>
+        <connection>${windup-procyon.scm.connection}</connection>
+        <developerConnection>${windup-procyon.developer.connection}</developerConnection>
+        <url>${windup-procyon.scm.url}</url>
+    </scm>
+
     <modules>
         <module>Procyon.CompilerTools</module>
         <module>Procyon.Core</module>
