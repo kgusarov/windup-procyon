@@ -10,7 +10,7 @@
     
     <groupId>org.jboss.windup.decompiler.procyon</groupId>
     <artifactId>windup-procyon-parent</artifactId>
-    <version>1.0.0.20160510</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Windup Procyon Decompiler Parent</name>
 
@@ -21,7 +21,7 @@
     </properties>
 
     <scm>
-        <tag>1.0.0.20160510</tag>
+        <tag>master</tag>
         <connection>${windup-procyon.scm.connection}</connection>
         <developerConnection>${windup-procyon.developer.connection}</developerConnection>
         <url>${windup-procyon.scm.url}</url>
